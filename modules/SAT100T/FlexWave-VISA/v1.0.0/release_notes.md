@@ -1,1 +1,1 @@
-# Flexwave_VISA_Installer_v1.0.0.exe
+# LabVIEW_Bridge_Server_Installer_v1.0.0.exe
