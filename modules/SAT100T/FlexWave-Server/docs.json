@@ -1,0 +1,21 @@
+[
+  {
+    "product": "FlexWave-Server",
+    "submodules": {
+      "FlexWave-Server": {
+        "1.1.0": {
+          "title": "Server v1.1.0",
+          "short_description": "Backend server improvements.",
+          "description": "Improved API performance and connection handling.",
+          "icon": "icon/FlexWave-Server.png"
+        },
+        "1.0.0": {
+          "title": "Server v1.0.0",
+          "short_description": "Initial server release.",
+          "description": "Basic backend communication system.",
+          "icon": "icon/FlexWave-Server.png"
+        }
+      }
+    }
+  }
+]

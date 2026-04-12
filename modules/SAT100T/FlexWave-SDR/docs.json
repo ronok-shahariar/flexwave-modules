@@ -1,0 +1,67 @@
+[
+  {
+    "product": "FlexWave-SDR",
+    "submodules": {
+      "FlexSDR_Proj": {
+        "1.1.0": {
+          "title": "SDR Project v1.1.0",
+          "short_description": "Enhanced SDR framework.",
+          "description": "Improved streaming stability and RF handling.",
+          "icon": "icon/FlexWave-SDR.png"
+        },
+        "1.0.0": {
+          "title": "SDR Project v1.0.0",
+          "short_description": "Initial SDR framework.",
+          "description": "Basic SDR pipeline implementation.",
+          "icon": "icon/FlexWave-SDR.png"
+        }
+      },
+
+      "Image_Updater": {
+        "1.1.0": {
+          "title": "Image Updater v1.1.0",
+          "short_description": "Firmware update tool.",
+          "description": "Improved update reliability and rollback support.",
+          "icon": "icon/FlexWave-SDR.png"
+        },
+        "1.0.0": {
+          "title": "Image Updater v1.0.0",
+          "short_description": "Initial updater tool.",
+          "description": "Basic firmware update functionality.",
+          "icon": "icon/FlexWave-SDR.png"
+        }
+      },
+
+      "LabVIEW_Driver": {
+        "1.1.0": {
+          "title": "LabVIEW Driver v1.1.0",
+          "short_description": "LabVIEW integration driver.",
+          "description": "Improved VI communication stability and compatibility.",
+          "icon": "icon/FlexWave-SDR.png"
+        },
+        "1.0.0": {
+          "title": "LabVIEW Driver v1.0.0",
+          "short_description": "Initial LabVIEW driver.",
+          "description": "Basic driver for LabVIEW integration.",
+          "icon": "icon/FlexWave-SDR.png"
+        }
+      },
+
+      "Python_Library": {
+        "1.1.0": {
+          "title": "Python Library v1.1.0",
+          "short_description": "Python SDK for SDR control.",
+          "description": "Improved streaming stability and FFT optimization.",
+          "icon": "icon/FlexWave-SDR.png"
+        },
+        "1.0.0": {
+          "title": "Python Library v1.0.0",
+          "short_description": "Initial Python SDK.",
+          "description": "Basic SDR control and acquisition support.",
+          "icon": "icon/FlexWave-SDR.png"
+        }
+      }
+    }
+  }
+  
+]

@@ -1,0 +1,21 @@
+[
+  {
+    "product": "FlexWave-Compute",
+    "submodules": {
+      "FlexWave-Compute": {
+        "1.1.0": {
+          "title": "Compute v1.1.0",
+          "short_description": "High-performance compute module.",
+          "description": "Improved compute pipeline, better stability and optimization.",
+          "icon": "icon/FlexWave-Compute.png"
+        },
+        "1.0.0": {
+          "title": "Compute v1.0.0",
+          "short_description": "Initial compute release.",
+          "description": "Basic compute functionality for signal processing.",
+          "icon": "icon/FlexWave-Compute.png"
+        }
+      }
+    }
+  }
+]

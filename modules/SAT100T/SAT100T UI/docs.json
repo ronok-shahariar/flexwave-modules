@@ -1,0 +1,21 @@
+[
+  {
+    "product": "SAT100T UI",
+    "submodules": {
+      "SAT100T UI": {
+        "1.1.0": {
+          "title": "SAT100T UI v1.1.0",
+          "short_description": "Improved UI system.",
+          "description": "Better layout responsiveness and UX improvements.",
+          "icon": "icon/SAT100T_UI.png"
+        },
+        "1.0.0": {
+          "title": "SAT100T UI v1.0.0",
+          "short_description": "Initial UI release.",
+          "description": "Basic dashboard and navigation system.",
+          "icon": "icon/SAT100T_UI.png"
+        }
+      }
+    }
+  }
+]
