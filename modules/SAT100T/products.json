@@ -1,0 +1,120 @@
+[
+  {
+    "product": "FlexWave-Compute",
+    "submodule": "FlexWave-Compute",
+    "version": "1.1.0",
+    "title": "FlexWave Compute v1.1.0",
+    "short_description": "High-performance compute module for signal processing.",
+    "description": "Latest release with improved compute efficiency and stability enhancements."
+  },
+  {
+    "product": "FlexWave-Compute",
+    "submodule": "FlexWave-Compute",
+    "version": "1.0.0",
+    "title": "FlexWave Compute v1.0.0",
+    "short_description": "Initial compute module release.",
+    "description": "Base version providing core compute functionalities."
+  },
+
+  {
+    "product": "FlexWave-SDR",
+    "submodule": "FlexSDR_Proj",
+    "version": "1.1.0",
+    "title": "FlexWave SDR Project v1.1.0",
+    "short_description": "SDR project framework with enhanced streaming.",
+    "description": "Improved streaming stability, reduced latency, and better RF handling."
+  },
+  {
+    "product": "FlexWave-SDR",
+    "submodule": "FlexSDR_Proj",
+    "version": "1.0.0",
+    "title": "FlexWave SDR Project v1.0.0",
+    "short_description": "Initial SDR project release.",
+    "description": "Basic SDR pipeline implementation."
+  },
+
+  {
+    "product": "FlexWave-SDR",
+    "submodule": "Image_Updater",
+    "version": "1.1.0",
+    "title": "FlexWave Image Updater v1.1.0",
+    "short_description": "Firmware image update utility.",
+    "description": "Enhanced update reliability and rollback support."
+  },
+  {
+    "product": "FlexWave-SDR",
+    "submodule": "Image_Updater",
+    "version": "1.0.0",
+    "title": "FlexWave Image Updater v1.0.0",
+    "short_description": "Initial image updater tool.",
+    "description": "Basic firmware update functionality."
+  },
+
+  {
+    "product": "FlexWave-SDR",
+    "submodule": "LabVIEW_Driver",
+    "version": "1.1.0",
+    "title": "FlexWave LabVIEW Driver v1.1.0",
+    "short_description": "LabVIEW integration driver.",
+    "description": "Improved VI compatibility and communication stability."
+  },
+  {
+    "product": "FlexWave-SDR",
+    "submodule": "LabVIEW_Driver",
+    "version": "1.0.0",
+    "title": "FlexWave LabVIEW Driver v1.0.0",
+    "short_description": "Initial LabVIEW driver.",
+    "description": "Basic driver support for LabVIEW integration."
+  },
+
+  {
+    "product": "FlexWave-SDR",
+    "submodule": "Python_Library",
+    "version": "1.1.0",
+    "title": "FlexWave SDR Python Library v1.1.0",
+    "short_description": "Python SDK for SDR control and signal processing.",
+    "description": "Improved streaming stability, reduced latency, and FFT optimization fixes."
+  },
+  {
+    "product": "FlexWave-SDR",
+    "submodule": "Python_Library",
+    "version": "1.0.0",
+    "title": "FlexWave SDR Python Library v1.0.0",
+    "short_description": "Initial Python SDK for SDR.",
+    "description": "Basic SDR control and data acquisition support."
+  },
+
+  {
+    "product": "FlexWave-Server",
+    "submodule": "FlexWave-Server",
+    "version": "1.1.0",
+    "title": "FlexWave Server v1.1.0",
+    "short_description": "Backend server for FlexWave ecosystem.",
+    "description": "Improved API response time and connection handling."
+  },
+  {
+    "product": "FlexWave-Server",
+    "submodule": "FlexWave-Server",
+    "version": "1.0.0",
+    "title": "FlexWave Server v1.0.0",
+    "short_description": "Initial server release.",
+    "description": "Basic server implementation for module communication."
+  },
+
+  {
+    "product": "SAT100T UI",
+    "submodule": "SAT100T UI",
+    "version": "1.1.0",
+    "title": "SAT100T UI v1.1.0",
+    "short_description": "User interface module.",
+    "description": "Improved UI responsiveness and layout optimization."
+  },
+  {
+    "product": "SAT100T UI",
+    "submodule": "SAT100T UI",
+    "version": "1.0.0",
+    "title": "SAT100T UI v1.0.0",
+    "short_description": "Initial UI release.",
+    "description": "Basic dashboard and navigation system."
+  }
+]
