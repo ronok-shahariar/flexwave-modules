@@ -1,18 +1,35 @@
 [
   {
     "product": "FlexWave-SDR",
-    "submodules": {      
+    "submodules": {
+
       "Image_Updater": {
         "1.1.0": {
           "title": "Image Updater v1.1.0",
           "short_description": "Firmware update tool.",
-          "description": "Improved update reliability and rollback support.",
+          "description": "Image Updater v1.1.0 introduces a more reliable and robust firmware update mechanism designed to ensure safe and consistent device upgrades. This version enhances the update pipeline by adding rollback support, allowing users to revert to a previous firmware version in case of failure or instability. The update process is now more resilient to interruptions such as power loss or network issues, significantly reducing the risk of corrupted firmware states. Improved validation checks ensure that only compatible and verified firmware images are applied, enhancing overall system safety. Additionally, the update progress tracking has been refined, providing clearer feedback during installation. The internal handling of update packages has been optimized to reduce processing time and improve responsiveness. This version is particularly useful for production environments where reliability and recovery are critical. Overall, version 1.1.0 focuses on stability, safety, and improved user confidence during firmware upgrades.",
+          "patch_notes": [
+            "Added rollback support for failed updates",
+            "Improved update reliability and error handling",
+            "Enhanced firmware validation checks",
+            "Optimized update processing speed",
+            "Improved progress feedback system"
+          ],
+          "support": "xrcomm/FlexWave-SDR_ImageUpdater_1.1.0/support",
           "icon": "icon/FlexWave-SDR.png"
         },
+
         "1.0.0": {
           "title": "Image Updater v1.0.0",
           "short_description": "Initial updater tool.",
-          "description": "Basic firmware update functionality.",
+          "description": "Image Updater v1.0.0 is the initial release of the firmware update utility, providing a simple and straightforward mechanism to install firmware images on supported devices. This version focuses on delivering core functionality required for uploading and applying firmware packages. It supports basic validation and installation steps, ensuring that devices can be updated with minimal setup. While it lacks advanced recovery or rollback capabilities, it provides a stable baseline for firmware management. Users can perform manual updates and monitor the process through simple status indicators. This version is suitable for controlled environments and development scenarios where advanced fault tolerance is not required. It establishes the foundation for future enhancements, including improved reliability and automation features.",
+          "patch_notes": [
+            "Initial firmware update implementation",
+            "Basic image validation support",
+            "Manual update process",
+            "Simple progress indication"
+          ],
+          "support": "xrcomm/FlexWave-SDR_ImageUpdater_1.0.0/support",
           "icon": "icon/FlexWave-SDR.png"
         }
       },
@@ -21,13 +38,29 @@
         "1.1.0": {
           "title": "LabVIEW Driver v1.1.0",
           "short_description": "LabVIEW integration driver.",
-          "description": "Improved VI communication stability and compatibility.",
+          "description": "LabVIEW Driver v1.1.0 enhances integration between SDR hardware and LabVIEW environments, providing improved communication stability and compatibility. This version refines the underlying driver architecture to ensure more reliable data exchange between the hardware and LabVIEW applications. Timing synchronization has been improved, reducing data inconsistencies during high-speed operations. The driver now handles connection interruptions more gracefully, automatically attempting recovery without requiring manual intervention. Compatibility with newer LabVIEW versions has also been improved, ensuring seamless integration across development environments. Additional debugging support and clearer error messages help developers quickly identify and resolve issues. Overall, this release focuses on reliability, compatibility, and smoother interaction between SDR hardware and LabVIEW-based applications.",
+          "patch_notes": [
+            "Improved VI communication stability",
+            "Enhanced timing synchronization",
+            "Better compatibility with latest LabVIEW versions",
+            "Improved error handling and logging",
+            "Added connection recovery support"
+          ],
+          "support": "xrcomm/FlexWave-SDR_LabVIEW_1.1.0/support",
           "icon": "icon/FlexWave-SDR.png"
         },
+
         "1.0.0": {
           "title": "LabVIEW Driver v1.0.0",
           "short_description": "Initial LabVIEW driver.",
-          "description": "Basic driver for LabVIEW integration.",
+          "description": "LabVIEW Driver v1.0.0 is the first release of the integration layer between SDR hardware and LabVIEW applications. It provides the essential functionality required to establish communication, send commands, and receive data within a LabVIEW environment. The driver offers a simple interface for developers to build custom VI-based workflows. While it lacks advanced optimization and recovery features, it delivers a stable baseline for initial development and testing. This version allows users to quickly prototype and validate SDR control logic using LabVIEW. It serves as the foundation for future enhancements aimed at improving performance and reliability.",
+          "patch_notes": [
+            "Initial LabVIEW driver release",
+            "Basic device communication support",
+            "Simple VI integration framework",
+            "Stable baseline functionality"
+          ],
+          "support": "xrcomm/FlexWave-SDR_LabVIEW_1.0.0/support",
           "icon": "icon/FlexWave-SDR.png"
         }
       },
@@ -36,17 +69,33 @@
         "1.1.0": {
           "title": "Python Library v1.1.0",
           "short_description": "Python SDK for SDR control.",
-          "description": "Improved streaming stability and FFT optimization.",
+          "description": "Python Library v1.1.0 introduces major improvements to SDR control and data handling capabilities within Python environments. This version enhances streaming stability, ensuring continuous data acquisition even under high load conditions. FFT processing has been optimized, allowing faster signal analysis with reduced computational overhead. The API structure has been refined to provide clearer method definitions and improved usability for developers. Device connection handling has also been improved, including automatic reconnection and better timeout management. Logging and debugging tools have been enhanced to assist in diagnosing issues quickly. This release is designed to support both development and production use cases, offering a reliable and efficient interface for SDR interaction. Overall, version 1.1.0 focuses on performance, usability, and robustness improvements.",
+          "patch_notes": [
+            "Improved streaming stability",
+            "Optimized FFT performance",
+            "Enhanced API design",
+            "Added auto-reconnect feature",
+            "Improved logging and debugging tools"
+          ],
+          "support": "xrcomm/FlexWave-SDR_Python_1.1.0/support",
           "icon": "icon/FlexWave-SDR.png"
         },
+
         "1.0.0": {
           "title": "Python Library v1.0.0",
           "short_description": "Initial Python SDK.",
-          "description": "Basic SDR control and acquisition support.",
+          "description": "Python Library v1.0.0 is the first release of the SDR control SDK for Python, providing essential functionality for device interaction and signal acquisition. It enables developers to communicate with SDR hardware, configure parameters, and retrieve data for processing. The API is designed to be simple and easy to use, allowing rapid development and prototyping. While performance optimizations are limited in this version, it provides a stable and predictable interface for basic SDR operations. This release serves as the foundation for future enhancements, enabling developers to build and test SDR-based applications efficiently.",
+          "patch_notes": [
+            "Initial SDK release",
+            "Basic SDR control support",
+            "Simple API for quick integration",
+            "Stable development baseline"
+          ],
+          "support": "xrcomm/FlexWave-SDR_Python_1.0.0/support",
           "icon": "icon/FlexWave-SDR.png"
         }
       }
+
     }
   }
-  
 ]

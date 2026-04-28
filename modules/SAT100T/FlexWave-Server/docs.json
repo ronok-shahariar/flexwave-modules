@@ -6,13 +6,29 @@
         "1.1.0": {
           "title": "Server v1.1.0",
           "short_description": "Backend server improvements.",
-          "description": "Improved API performance and connection handling.",
+          "description": "FlexWave Server v1.1.0 introduces significant improvements to backend performance, scalability, and connection reliability. This version focuses on optimizing API response times, ensuring faster data exchange between clients and the server. The internal request handling system has been redesigned to better manage concurrent connections, reducing bottlenecks during high-load scenarios. Enhanced session management ensures stable communication over long durations, making it more suitable for production deployments. Additional logging and monitoring capabilities have been introduced, allowing developers to track system behavior and diagnose issues more effectively. Error handling mechanisms have also been improved, enabling the server to recover gracefully from unexpected failures without interrupting active sessions. This version also includes optimizations in network communication, reducing latency and improving throughput. Overall, FlexWave Server v1.1.0 provides a more robust and efficient backend solution, delivering improved reliability, better performance, and enhanced system stability for demanding SDR and compute environments.",
+          "patch_notes": [
+            "Improved API response performance",
+            "Enhanced connection handling for multiple clients",
+            "Optimized request processing pipeline",
+            "Improved session management stability",
+            "Added advanced logging and monitoring tools"
+          ],
+          "support": "xrcomm/FlexWave-Server_1.1.0/support",
           "icon": "icon/FlexWave-Server.png"
         },
+
         "1.0.0": {
           "title": "Server v1.0.0",
           "short_description": "Initial server release.",
-          "description": "Basic backend communication system.",
+          "description": "FlexWave Server v1.0.0 is the initial release of the backend communication system designed to support SDR and compute modules. This version provides the core infrastructure required for handling client-server interactions, enabling data exchange and control operations across connected components. The architecture is designed with simplicity and stability in mind, offering a reliable baseline for development and testing. It supports basic request handling, session management, and communication protocols necessary for system operation. While it does not include advanced performance optimizations or scalability features, it serves as a solid foundation for building more complex backend systems. Developers can use this version to prototype applications, validate workflows, and establish baseline performance metrics. FlexWave Server v1.0.0 is ideal for controlled environments and early-stage deployments, providing a dependable starting point for future enhancements and improvements.",
+          "patch_notes": [
+            "Initial backend server implementation",
+            "Basic client-server communication support",
+            "Core request handling system",
+            "Stable development baseline"
+          ],
+          "support": "xrcomm/FlexWave-Server_1.0.0/support",
           "icon": "icon/FlexWave-Server.png"
         }
       }

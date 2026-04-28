@@ -6,13 +6,29 @@
         "1.1.0": {
           "title": "SAT100T-UI v1.1.0",
           "short_description": "Improved UI system.",
-          "description": "Better layout responsiveness and UX improvements.",
+          "description": "SAT100T-UI v1.1.0 delivers a significantly improved user interface experience with a strong focus on responsiveness, usability, and visual consistency. This version introduces a more adaptive layout system that adjusts smoothly across different screen sizes and resolutions, ensuring a consistent experience for all users. Navigation has been refined to reduce friction, making it easier to access key features and workflows. Performance improvements have been implemented to reduce UI lag and enhance overall responsiveness during interaction. Visual elements such as spacing, typography, and component alignment have been carefully optimized to provide a cleaner and more professional look. Additional improvements include better state management, smoother transitions, and enhanced feedback for user actions. This version also improves stability during long sessions, ensuring the interface remains responsive and reliable. Overall, SAT100T-UI v1.1.0 focuses on delivering a modern, intuitive, and efficient user experience for both new and experienced users.",
+          "patch_notes": [
+            "Improved layout responsiveness across resolutions",
+            "Enhanced navigation flow and usability",
+            "Reduced UI lag and improved performance",
+            "Refined visual consistency and spacing",
+            "Improved stability during long sessions"
+          ],
+          "support": "xrcomm/SAT100T-UI_1.1.0/support",
           "icon": "icon/SAT100T_UI.png"
         },
+
         "1.0.0": {
           "title": "SAT100T-UI v1.0.0",
           "short_description": "Initial UI release.",
-          "description": "Basic dashboard and navigation system.",
+          "description": "SAT100T-UI v1.0.0 represents the first release of the user interface designed for managing and interacting with SAT100T systems. This version introduces the core dashboard layout, providing access to essential controls, system status information, and navigation elements. The interface is built with simplicity in mind, allowing users to quickly understand and operate the system without a steep learning curve. Basic navigation and workflow structures are implemented to support primary use cases, making it suitable for early deployments and testing environments. While visual and performance optimizations are limited in this release, it provides a stable and functional baseline for future improvements. Developers and users can utilize this version to explore system capabilities, validate UI workflows, and establish initial usage patterns. SAT100T-UI v1.0.0 serves as the foundation for future enhancements, including improved responsiveness, design refinements, and advanced user interaction features.",
+          "patch_notes": [
+            "Initial UI framework implementation",
+            "Basic dashboard and navigation system",
+            "Core interaction workflows established",
+            "Stable baseline for further development"
+          ],
+          "support": "xrcomm/SAT100T-UI_1.0.0/support",
           "icon": "icon/SAT100T_UI.png"
         }
       }
