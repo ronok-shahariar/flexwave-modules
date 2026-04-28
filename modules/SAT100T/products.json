@@ -6,13 +6,27 @@
         "1.1.0": {
           "title": "Compute v1.1.0",
           "short_description": "High-performance compute module.",
-          "description": "Improved compute pipeline, better stability and optimization.",
+          "description": "FlexWave Compute v1.1.0 delivers a refined and highly optimized computation pipeline designed for demanding signal processing workloads. This version introduces improved threading efficiency, reduced latency in data transfer, and enhanced memory management to ensure stable long-duration execution. The module now supports better task scheduling, allowing multiple compute jobs to run concurrently without resource contention. Engineers will notice smoother performance during real-time operations and more predictable execution timing. Additional improvements include better error handling, automatic recovery mechanisms, and optimized CPU utilization across multi-core systems. The compute framework is now more scalable, making it suitable for both development environments and production deployments. Overall, version 1.1.0 focuses on stability, performance tuning, and reliability improvements while maintaining backward compatibility with existing compute workflows.",
+          "patch_notes": [
+            "Improved multi-threading performance",
+            "Reduced processing latency",
+            "Enhanced memory optimization",
+            "Added error recovery mechanisms"
+          ],
+          "support": "xrcomm/FlexWave-Compute_1.1.0/support",
           "icon": "icon/FlexWave-Compute.png"
         },
+
         "1.0.0": {
           "title": "Compute v1.0.0",
           "short_description": "Initial compute release.",
-          "description": "Basic compute functionality for signal processing.",
+          "description": "FlexWave Compute v1.0.0 represents the foundational release of the compute engine designed for signal processing applications. This version introduces the core pipeline architecture that enables efficient data processing, transformation, and analysis. It supports essential compute operations required for SDR workflows and provides a stable baseline for future enhancements. The initial version focuses on simplicity and reliability, offering predictable performance for standard workloads. While not heavily optimized, it establishes the groundwork for parallel processing and modular task execution. Developers can easily integrate this module into existing systems, making it a flexible choice for early-stage deployments and experimentation. Version 1.0.0 is ideal for testing, development, and understanding the compute framework before moving to more advanced optimized versions.",
+          "patch_notes": [
+            "Initial compute pipeline release",
+            "Basic signal processing support",
+            "Stable baseline architecture"
+          ],
+          "support": "xrcomm/FlexWave-Compute_1.0.0/support",
           "icon": "icon/FlexWave-Compute.png"
         }
       }
@@ -22,62 +36,31 @@
   {
     "product": "FlexWave-SDR",
     "submodules": {
-      "FlexSDR_Proj": {
-        "1.1.0": {
-          "title": "SDR Project v1.1.0",
-          "short_description": "Enhanced SDR framework.",
-          "description": "Improved streaming stability and RF handling.",
-          "icon": "icon/FlexWave-SDR.png"
-        },
-        "1.0.0": {
-          "title": "SDR Project v1.0.0",
-          "short_description": "Initial SDR framework.",
-          "description": "Basic SDR pipeline implementation.",
-          "icon": "icon/FlexWave-SDR.png"
-        }
-      },
-
-      "Image_Updater": {
-        "1.1.0": {
-          "title": "Image Updater v1.1.0",
-          "short_description": "Firmware update tool.",
-          "description": "Improved update reliability and rollback support.",
-          "icon": "icon/FlexWave-SDR.png"
-        },
-        "1.0.0": {
-          "title": "Image Updater v1.0.0",
-          "short_description": "Initial updater tool.",
-          "description": "Basic firmware update functionality.",
-          "icon": "icon/FlexWave-SDR.png"
-        }
-      },
-
-      "LabVIEW_Driver": {
-        "1.1.0": {
-          "title": "LabVIEW Driver v1.1.0",
-          "short_description": "LabVIEW integration driver.",
-          "description": "Improved VI communication stability and compatibility.",
-          "icon": "icon/FlexWave-SDR.png"
-        },
-        "1.0.0": {
-          "title": "LabVIEW Driver v1.0.0",
-          "short_description": "Initial LabVIEW driver.",
-          "description": "Basic driver for LabVIEW integration.",
-          "icon": "icon/FlexWave-SDR.png"
-        }
-      },
-
       "Python_Library": {
         "1.1.0": {
           "title": "Python Library v1.1.0",
           "short_description": "Python SDK for SDR control.",
-          "description": "Improved streaming stability and FFT optimization.",
+          "description": "The Python Library v1.1.0 introduces significant enhancements to the SDR control interface, making it more robust and efficient for developers. This version improves streaming stability, ensuring uninterrupted data flow even under high throughput conditions. FFT processing has been optimized for faster execution, allowing real-time analysis with minimal delay. The API design has been refined to provide clearer method structures and better error reporting, improving developer productivity. Additional improvements include better device connection handling, automatic reconnection support, and enhanced logging capabilities for debugging. The library is now more reliable for long-running applications and better suited for complex SDR workflows. Overall, version 1.1.0 focuses on performance, usability, and reliability improvements while maintaining compatibility with existing Python-based integrations.",
+          "patch_notes": [
+            "Improved streaming stability",
+            "Optimized FFT performance",
+            "Enhanced API usability",
+            "Better device reconnection handling"
+          ],
+          "support": "xrcomm/FlexWave-SDR_Python_1.1.0/support",
           "icon": "icon/FlexWave-SDR.png"
         },
+
         "1.0.0": {
           "title": "Python Library v1.0.0",
           "short_description": "Initial Python SDK.",
-          "description": "Basic SDR control and acquisition support.",
+          "description": "Python Library v1.0.0 is the first release of the SDR control SDK, providing essential tools for interacting with SDR hardware using Python. It enables basic device communication, signal acquisition, and control operations. The library is designed to be simple and easy to integrate into existing workflows, making it ideal for initial development and experimentation. While it lacks advanced optimizations, it provides a stable and predictable interface for SDR interaction. Developers can quickly build prototypes and test SDR functionalities using this version. It forms the foundation for future enhancements and performance improvements introduced in later releases.",
+          "patch_notes": [
+            "Initial SDK release",
+            "Basic SDR communication support",
+            "Simple API for rapid integration"
+          ],
+          "support": "xrcomm/FlexWave-SDR_Python_1.0.0/support",
           "icon": "icon/FlexWave-SDR.png"
         }
       }
@@ -91,34 +74,15 @@
         "1.1.0": {
           "title": "Server v1.1.0",
           "short_description": "Backend server improvements.",
-          "description": "Improved API performance and connection handling.",
+          "description": "FlexWave Server v1.1.0 introduces key improvements in backend performance and reliability. This version enhances API response times, improves connection handling, and introduces better load balancing for multiple clients. The server can now handle concurrent requests more efficiently, reducing bottlenecks in high-demand scenarios. Additional improvements include better error logging, improved session management, and more stable network communication. The overall architecture has been refined to ensure smoother operation in production environments. This version is particularly beneficial for deployments requiring consistent uptime and scalability.",
+          "patch_notes": [
+            "Improved API performance",
+            "Enhanced connection handling",
+            "Better logging and debugging",
+            "Increased system stability"
+          ],
+          "support": "xrcomm/FlexWave-Server_1.1.0/support",
           "icon": "icon/FlexWave-Server.png"
-        },
-        "1.0.0": {
-          "title": "Server v1.0.0",
-          "short_description": "Initial server release.",
-          "description": "Basic backend communication system.",
-          "icon": "icon/FlexWave-Server.png"
-        }
-      }
-    }
-  },
-
-  {
-    "product": "SAT100T UI",
-    "submodules": {
-      "SAT100T UI": {
-        "1.1.0": {
-          "title": "SAT100T UI v1.1.0",
-          "short_description": "Improved UI system.",
-          "description": "Better layout responsiveness and UX improvements.",
-          "icon": "icon/SAT100T_UI.png"
-        },
-        "1.0.0": {
-          "title": "SAT100T UI v1.0.0",
-          "short_description": "Initial UI release.",
-          "description": "Basic dashboard and navigation system.",
-          "icon": "icon/SAT100T_UI.png"
         }
       }
     }
